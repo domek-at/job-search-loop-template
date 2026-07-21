@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Rendered CV / cover artifacts — don't commit real documents.
+# (The template ships only example *.md files, which are kept.)
+*.pdf
+*.docx
+*.doc
+
+# Local env / editor
+.env
+.env.*
+*.log
+.vscode/
+.idea/
