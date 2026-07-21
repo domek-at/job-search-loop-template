@@ -104,7 +104,7 @@ click **Use this template → Create a new repository**, and set the visibility 
 **Option B — clone + push to a new private repo:**
 
 ```bash
-git clone https://github.com/domek-at/job-search-loop-template.git job-search
+git clone https://github.com/domek-labs/job-search-loop-template.git job-search
 cd job-search
 rm -rf .git && git init
 # create an EMPTY private repo on GitHub first, then:
@@ -134,7 +134,7 @@ below is entirely optional.**
 
 If you'd like to automate the create-issue → work-issue flow (LLM proposes matches,
 opens tickets, produces per-job CV/cover drafts), the loop-workflow primitives
-live in **[stagecrew](https://github.com/domek-at/stagecrew)**. It's a recommended
+live in **[stagecrew](https://github.com/domek-labs/stagecrew)**. It's a recommended
 starting point, not a requirement — see [`docs/loop.md`](docs/loop.md) for how the
 two fit together.
 

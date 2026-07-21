@@ -109,7 +109,7 @@ privates Repo zu forken:
 **Option B — klonen + in ein neues privates Repo pushen:**
 
 ```bash
-git clone https://github.com/domek-at/job-search-loop-template.git job-search
+git clone https://github.com/domek-labs/job-search-loop-template.git job-search
 cd job-search
 rm -rf .git && git init
 # zuerst ein LEERES privates Repo auf GitHub anlegen, dann:
@@ -140,7 +140,7 @@ optional.**
 Wenn du den create-issue → work-issue-Flow automatisieren willst (LLM schlägt
 Matches vor, öffnet Tickets, erzeugt Per-Job-CV/Cover-Entwürfe), liegen die
 Loop-Engineering-Primitive in
-**[stagecrew](https://github.com/domek-at/stagecrew)**. Das ist eine empfohlene
+**[stagecrew](https://github.com/domek-labs/stagecrew)**. Das ist eine empfohlene
 Ausgangsbasis, keine Voraussetzung — siehe [`docs/loop.md`](docs/loop.md), wie
 beides zusammenspielt.
 

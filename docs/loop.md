@@ -6,7 +6,7 @@ postings into a capable LLM, and ask it to score them against your criteria. Tha
 alone gets you most of the value.
 
 If you want to automate the repetitive parts, the loop-workflow primitives live
-in **[stagecrew](https://github.com/domek-at/stagecrew)**. This page describes how
+in **[stagecrew](https://github.com/domek-labs/stagecrew)**. This page describes how
 the two fit together; nothing here is mandatory.
 
 ## The manual workflow (baseline)
@@ -39,6 +39,6 @@ is exactly what such a loop consumes to enforce your rules automatically. That's
 keeping the frontmatter accurate is worthwhile even if you start out manual — it's
 the on-ramp to automation later.
 
-See **[stagecrew](https://github.com/domek-at/stagecrew)** for the primitives and
+See **[stagecrew](https://github.com/domek-labs/stagecrew)** for the primitives and
 setup. Whether you adopt it or stay manual, the file model in this template
 (one folder per application + append-only event log + generated board) is the same.
