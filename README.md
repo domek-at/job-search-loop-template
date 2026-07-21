@@ -4,6 +4,8 @@ A **git-native job-search system**: your CV and criteria live as version-control
 files, an LLM (optionally an automated loop) finds matching jobs, and your
 application pipeline is tracked as plain files with a **generated** board.
 
+> **TL;DR** — Fork → drop in your CV + criteria → run `node scripts/build_board.js` → point an LLM at `AGENTS.md` to find matches. Your entire job search in one git repo, with full audit trail.
+
 > _[Deutsche Version](README.de.md)_
 
 This is a **sanitized public template**. Everything in it is placeholder/fictional —
